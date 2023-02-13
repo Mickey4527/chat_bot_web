@@ -1800,6 +1800,12 @@ header
 	{
         padding: 28px 32px;  
     }
+	header .logo
+{
+  
+    font-size: 1.25em;
+  
+}
 }
 header .logo
 {
@@ -1864,6 +1870,7 @@ header #toggle::after
     place-items: center;
 	transition: 0.3s;
 	font-family: 'Montserrat', sans-serif;
+	overflow-y: scroll;
 }
 
 #navigation.active{
@@ -1891,7 +1898,7 @@ header #toggle::after
 }
 #navigation ul li a.active,#navigation ul li a:hover
 {
-    font-size: 2.8em;
+    font-size: 2.2em;
     font-weight: 800;
     text-transform: uppercase;
 	text-decoration: underline;
@@ -1919,6 +1926,7 @@ header #toggle::after
 	{ 
         right: -520px;
 		width: 100%;
+		padding-top: 25%;
 	}
 
 	#navigation ul li a
