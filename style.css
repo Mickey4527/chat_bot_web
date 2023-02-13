@@ -1884,7 +1884,7 @@ header #toggle::after
     color: #fff;
     text-decoration: none;
     display: inline-block;
-	font-size: 2.75em;
+	font-size: 2em;
 	letter-spacing: 2px;
     font-weight: 600;
     text-transform: uppercase;
